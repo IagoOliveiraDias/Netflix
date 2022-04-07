@@ -1,0 +1,87 @@
+
+body{
+background: black;
+width:1200px;
+height: 600px;
+}
+
+.container1{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+
+}
+
+.container2{
+margin-top: 73px;
+display: flex;
+justify-content: center;
+color: white;
+font-family: 'IBM Plex Sans';
+font-size:17px;
+}
+
+.container3 {
+width:700px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+
+}
+
+.subcontainer3{
+margin-top: 55px;
+color: white;
+flex-direction: column;
+text-align: center;
+}
+
+.overflow{
+width:160px;
+height: 160px;
+overflow:hidden;
+border-radius: 5%;
+border: 1px solid transparent;
+
+}
+.overflow:hover{
+border: 1px solid white;
+}
+
+.subcontainer3 img:hover{
+transition-duration: 0.4s;
+transform: scale(1.5);
+
+}
+
+.subcontainer3 p{
+font-family: 'IBM Plex Sans';
+font-weight: bolder;
+font-size: 14px;
+color: #9C9C9C;
+
+}
+
+.container4{
+display: flex;
+justify-content: center;
+}
+
+button{
+margin-top: 136px;
+border: 1.5px white solid;
+border-radius: 5px;
+padding: 15px 70px;
+background-color: black;
+color: white;
+transition-duration: 0.4s;
+font-family: 'IBM Plex Sans';
+font-weight: bolder;
+
+}
+
+button:hover{
+transition-duration: 0.4s;
+background-color: white;
+color:black;
+}
